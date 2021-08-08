@@ -1,6 +1,8 @@
 # Powercord Utilities (Windows Only)
 
-Powercord Utilities is an automated Installer/Uninstaller for Powercord with added features written in Batch.
+# NOT OFFICIALLY ENDORSED BY POWERCORD 
+
+Powercord Utilities is an (unofficial) automated Installer/Uninstaller for Powercord with added features written in Batch.
 
 Currently supports semi-automated installation and uninstallation of Powercord, along with PowercordPluginDownloader and PowercordThemeDownloader.
 
