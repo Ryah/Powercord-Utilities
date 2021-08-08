@@ -1,7 +1,7 @@
 # Powercord Utilities (Windows Only)
 
-# NOT OFFICIALLY ENDORSED BY [POWERCORD](https://powercord.dev/)
-
+# NOT OFFICIALLY ENDORSED BY [POWERCORD](https://powercord.dev/).
+## This is just a fan project to make the installation a bit smoother
 
 Powercord Utilities is an (unofficial) automated Installer/Uninstaller for [Powercord](https://powercord.dev/) with added features written in Batch.
 
