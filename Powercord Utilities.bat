@@ -163,17 +163,37 @@ if "%App%" EQU "Install PowerCord" (
     for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
     echo      [92mº[0m[95m    Installing Powercord    [92mº[0m[94m                                [92m³[0mScripts made by [36mNo Text To Speech[0m on [31mYou[37mTube[0m[92m³[0m
     echo      [92mÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼[0m                                [92mÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ[0m 
-
-    git clone https://github.com/powercord-org/powercord
+    echo.
+    echo.
+    echo [96mThis will close Discord Canary in the installation process.
+    echo.
+    echo.
+    echo|set /p="[96mPress any key to continue[0m"
+    pause >nul
+    cls
+    for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
+    echo      [92mº[0m[95m    Installing Powercord    [92mº[0m[94m                                [92m³[0mScripts made by [36mNo Text To Speech[0m on [31mYou[37mTube[0m[92m³[0m
+    echo      [92mÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼[0m                                [92mÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ[0m 
+    echo.
+    echo.
+    echo Cloning Powercord Repo
+    git clone -q https://github.com/powercord-org/powercord
     cd powercord
-    npm i
-    npm run plug
-    powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('Close DiscordCanary using the taskbar', 'Please read', 'OK', [System.Windows.Forms.MessageBoxIcon]::Information);}"
+    echo.
+    echo.
+    echo Running npm commands
+    npm i --silent >nul
+    npm run plug --silent >nul
+    echo.
+    echo.
+    echo Closing Discord Canary
+    taskkill /f /im DiscordCanary.exe >nul
+    timeout /t 5 >nul
     cd %HOMEPATH%\powercord\src\Powercord\plugins
+    echo.
+    echo.
     echo Installing Theme Toggler
-    git clone https://github.com/redstonekasi/theme-toggler
-    echo.
-    echo.
+    git clone -q https://github.com/redstonekasi/theme-toggler
     echo.
     echo.
     choice /M "Do you want to install PowercordPluginDownloader and PowercordThemeDownloader?"
@@ -183,14 +203,21 @@ if "%App%" EQU "Install PowerCord" (
     ) else if errorlevel 2 (
        goto :InstallDone
     ) else if errorlevel 1 (
-       git clone https://github.com/LandenStephenss/PowercordPluginDownloader
-       git clone https://github.com/ploogins/PowercordThemeDownloader
+       echo Installing PowercordPluginDownloader
+       git clone -q https://github.com/LandenStephenss/PowercordPluginDownloader
+       echo Installing PowercordThemeDownloader
+       git clone -q https://github.com/ploogins/PowercordThemeDownloader
+       goto :InstallDone
     ) else if errorlevel 0 (
-        echo Error. Skipping install of plugins.
-        goto :InstallDone
+       echo Error. Skipping install of plugins.
+       goto :InstallDone
     )
 
     :InstallDone
+    echo Opening Discord Canary
+    START %appdata%/../Local/DiscordCanary/Update.exe --processStart DiscordCanary.exe
+    timeout /t 5 >nul
+	cls
     echo.
     echo.
     echo|set /p="[92mPowercord has been Installed![0m"
@@ -198,7 +225,7 @@ if "%App%" EQU "Install PowerCord" (
     echo|set /p="[92mIf you would like to install plugins/themes manually, please restart this utility tool.[0m"
     rem screw it I've been working on this for the past 3 hours and I still have no idea why it force closes here so whatever let's just say it has to do with reloading or something idk
     pause >nul
-    goto :Menu
+    goto :MENU
 )
 
 
@@ -223,12 +250,37 @@ if "%App%" EQU "Uninstall Powercord" (
         pause >nul
         goto :MENU
     )
+    echo.
+    echo.
+    echo [96mThis will close Discord Canary in the installation process.
+    echo.
+    echo.
+    echo|set /p="[96mPress any key to continue[0m"
+    pause >nul
+    cls
+    for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
+    echo      [92mº[0m[95m   Uninstalling Powercord   [92mº[0m[94m                                [92m³[0mScripts made by [36mNo Text To Speech[0m on [31mYou[37mTube[0m[92m³[0m
+    echo      [92mÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼[0m                                [92mÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ[0m 
+    echo.
+    echo.
     cd %HOMEPATH%\powercord
-    npm run unplug
-    powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('Close DiscordCanary using the taskbar', 'Please read', 'OK', [System.Windows.Forms.MessageBoxIcon]::Information);}"
-    powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('Please Start Discord Canary', 'Please read', 'OK', [System.Windows.Forms.MessageBoxIcon]::Information);}"
+    echo Running npm unplug
+    npm run unplug --silent >nul
+    rem powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('Close DiscordCanary using the taskbar', 'Please read', 'OK', [System.Windows.Forms.MessageBoxIcon]::Information);}"
+    echo.
+    echo.
+    echo Closing Discord Canary
+    timeout /t 5 >nul
+    taskkill /f /im DiscordCanary.exe >nul
+    echo.
+    echo.
+    rem powershell -Command "& {Add-Type -AssemblyName System.Windows.Forms; [System.Windows.Forms.MessageBox]::Show('Please Start Discord Canary', 'Please read', 'OK', [System.Windows.Forms.MessageBoxIcon]::Information);}"
+    echo Opening Discord Canary
+    START %appdata%/../Local/DiscordCanary/Update.exe --processStart DiscordCanary.exe
+    timeout /t 10 >nul
     cd %HOMEPATH%
 	echo.
+    echo.
 	echo Removing Powercord Git Folder
     rmdir powercord /s /q
 	cls
