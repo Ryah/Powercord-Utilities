@@ -26,10 +26,9 @@ environment running
 - Press option in menu
 - ???
 - Profit
-<br/>
-<br/>
+
 ---
-<br/>
+
 
 ## Authors
 
