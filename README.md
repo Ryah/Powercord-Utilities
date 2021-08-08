@@ -29,9 +29,9 @@ It also supports manually installing plugins/themes with a github repo link.
 A step by step series of examples that tell you how to get a development
 environment running
 
-- Download .bat file
+- Download bat or exe file
 - Double Click it
-- Press option in menu
+- Type option in menu
 - ???
 - Profit
 
