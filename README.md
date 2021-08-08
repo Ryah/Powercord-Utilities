@@ -1,9 +1,9 @@
 # Powercord Utilities (Windows Only)
 
-# NOT OFFICIALLY ENDORSED BY POWERCORD 
+# NOT OFFICIALLY ENDORSED BY [POWERCORD](https://powercord.dev/)
 
 
-Powercord Utilities is an (unofficial) automated Installer/Uninstaller for Powercord with added features written in Batch.
+Powercord Utilities is an (unofficial) automated Installer/Uninstaller for [Powercord](https://powercord.dev/) with added features written in Batch.
 
 Currently supports fully automated installation and uninstallation of Powercord and it's prerequisites with Chocolatey, along with PowercordPluginDownloader and PowercordThemeDownloader.
 
