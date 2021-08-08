@@ -1,6 +1,7 @@
 
 Todo:
-  ☐ Automate Killing/Opening of Discord Canary during installation
+  ✔ Automate Killing/Opening of Discord Canary during installation @done(21-08-08 02:16)
+  ☐ Plugin/Theme backup
   ☐ Automate installation of Git
   ☐ Automate installation of NodeJS
   ☐ Streamline Plugin installation
