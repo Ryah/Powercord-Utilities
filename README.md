@@ -42,10 +42,6 @@ environment running
 
 ---
 
-## Authors
-
-  - Ryah
-
 ## License
 
 This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
