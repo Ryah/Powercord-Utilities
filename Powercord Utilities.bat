@@ -1,4 +1,4 @@
-:::
+::: 
 :::   [92mษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป[0m
 :::   [92mบ[0m[94m          _____                                                  _     _    _  _    _  _  _  _                 [0m[92mบ[0m
 :::   [92mบ[0m[94m         |  __ \                                                | |   | |  | || |  (_)| |(_)| |                [0m[92mบ[0m
@@ -14,8 +14,6 @@
 :::   [92mบ[0m[94m                            Not affiliated with Discord or Powercord in any way                                [0m[92mบ[0m
 :::   [92mบ[0m[94m                           Powercord is against Discord ToS. Use at your own risk!                              [0m[92mบ[0m
 :::   [92mศอหออออออออออออออออออออออออออออหออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ[0m
-
-
 :: Hide Command and Set Scope
 @echo off
 setlocal EnableExtensions
@@ -70,22 +68,22 @@ echo      [92mวฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤถ[0m
 rem timeout /t 1 >nul
 rem Check if "git --version" is a recognized command
 git --version >nul 2>&1 && (
-   echo      [92mบFound Git                   บ[0m
+	echo      [92mบFound Git                   บ[0m
    rem timeout /t 1 >nul
    rem Check if "node -v" is a recognized command
    node -v >nul 2>&1 && (
-      echo      [92mบFound NodeJS                บ[0m
+	echo      [92mบFound NodeJS                บ[0m
       rem Check if the ".dead" file is present in "%appdata%/../Local/DiscordCanary"
       if exist %appdata%/../Local/DiscordCanary/.dead (
-         echo      [92mบ                            บ[0m
-         echo      [92mบ[0m[91mDiscord Canary NOT Found[0m    [92mบ[0m
-         echo      [92mศออออออออออออออออออออออออออออผ[0m
+			echo      [92mบ                            บ[0m
+			echo      [92mบ[0m[91mDiscord Canary NOT Found[0m    [92mบ[0m
+			echo      [92mศออออออออออออออออออออออออออออผ[0m
          echo.
          echo [91mIt doesn't look like Discord Canary is installed. Powercord only works with Canary.[0m
       echo.
-      echo We use Chocolatey to auto-install Powercord's prerequisites.
-      echo If Chocolatey is not installed, we will install it.
-      choice /M "Do you want me to install Chocolatey & Discord Canary?"
+      echo Powercord Utilities uses Chocolatey to auto-install Powercord's prerequisites.
+      echo If Chocolatey is not installed, it will be installed before the install process.
+      choice /M "Do you want to install Chocolatey & Discord Canary?"
       if errorlevel 255 (
          echo.
          echo.
@@ -115,22 +113,22 @@ git --version >nul 2>&1 && (
       pause
       exit
       ) else (
-         echo      [92mบFound Discord Canary        บ[0m
-         echo      [92mศออออออออออออออออออออออออออออผ[0m
+			echo      [92mบFound Discord Canary        บ[0m
+			echo      [92mศออออออออออออออออออออออออออออผ[0m
          timeout /t 1 >nul
          goto :MENU
       )
    ) || (
-      echo      [92mบ                            บ[0m
-      echo      [92mบ[0m[91mNodeJS NOT Found[0m            [92mบ[0m
-      echo      [92mศออออออออออออออออออออออออออออผ[0m
+		echo      [92mบ                            บ[0m 
+		echo      [92mบ[0m[91mNodeJS NOT Found[0m            [92mบ[0m
+		echo      [92mศออออออออออออออออออออออออออออผ[0m
       echo.
       rem echo [91mNodeJS is not installed. Please install NodeJS at https://nodejs.org/ (LTS is recommended^)[0m
       echo [91mNodeJS is not installed.[0m
       echo.
-      echo We use Chocolatey to auto-install Powercord's prerequisites.
-      echo If Chocolatey is not installed, we will install it.
-      choice /M "Do you want me to install Chocolatey & the latest LTS version of NodeJS?"
+      echo Powercord Utilities uses Chocolatey to auto-install Powercord's prerequisites.
+      echo If Chocolatey is not installed, it will be installed before the install process.
+      choice /M "Do you want to install Chocolatey & the latest LTS version of NodeJS?"
       if errorlevel 255 (
          echo.
          echo.
@@ -161,15 +159,15 @@ git --version >nul 2>&1 && (
       exit
    )
 ) || (
-   echo      [92mบ                            บ[0m
-   echo      [92mบ[0m[91mGit NOT Found[0m               [92mบ[0m
-   echo      [92mศออออออออออออออออออออออออออออผ[0m
+	echo      [92mบ                            บ[0m
+	echo      [92mบ[0m[91mGit NOT Found[0m               [92mบ[0m
+	echo      [92mศออออออออออออออออออออออออออออผ[0m
    echo.
    echo [91mGit is not installed.[0m
    echo.
-   echo We use Chocolatey to auto-install Powercord's prerequisites.
-   echo If Chocolatey is not installed, we will install it.
-   choice /M "Do you want me to install Chocolatey & the latest version of Git?"
+   echo Powercord Utilities uses Chocolatey to auto-install Powercord's prerequisites.
+   echo If Chocolatey is not installed, it will be installed before the install process.
+   choice /M "Do you want to install Chocolatey & the latest version of Git?"
    if errorlevel 255 (
       echo.
       echo.
@@ -219,7 +217,7 @@ echo      [92mบ[0m      Select an option      [92mบ[0m
 echo      [92mวฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤถ[0m
 echo      [92mบ[0m 1. Install Powercord       [92mบ[0m
 echo      [92mบ[0m 2. Uninstall Powercord     [92mบ[0m
-echo      [92mวฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤถ[0m
+echo      [92mวฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤถ[0m  
 echo      [92mบ[0m 3. Manually Install Plugin [92mบ[0m
 echo      [92mบ[0m 4. Manually Install Theme  [92mบ[0m
 echo      [92mบ[0m                            [92mบ[0m
@@ -274,7 +272,7 @@ REM                             Install Powercord
 REM ----------------------------------------------------------------------------
 
 if "%App%" EQU "Quit" (
-   exit /b %errorlevel%
+   exit
 )
 
 if "%App%" EQU "Install PowerCord" (
@@ -283,7 +281,16 @@ if "%App%" EQU "Install PowerCord" (
    for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
    echo      [92mบ[0m[95m    Installing Powercord    [92mบ[0m
    echo      [92mศออออออออออออออออออออออออออออผ[0m
-   echo [96mThis will close Discord Canary in the installation process.
+   echo.
+   if exist %HOMEPATH%\powercord\ (
+      echo.
+      echo [91mPowercord is already installed. Skipping install.[0m
+      echo|set /p="[92mPress any key to go back to the menu[0m"
+      pause >nul
+      goto :MENU
+   )
+   echo [96mThis will close Discord Canary along with all other Node processes in the installation process.
+   echo Working on a fix but for now this is the best I can do to install Powercord correctly.
    echo.
    echo.
    echo|set /p="[96mPress any key to continue[0m"
@@ -297,9 +304,24 @@ if "%App%" EQU "Install PowerCord" (
    cd powercord
    echo.
    echo.
-   echo Running npm commands
-   npm i --silent >nul
-   npm run plug --silent >nul
+   echo Closing node processes
+   taskkill /f /im node.exe >nul
+   timeout /t 3 >nul
+   echo Installing Powercord
+   START /b /wait runas /trustlevel:0x20000 "cmd /c cd %HOMEPATH%/%powercord && npm i --silent && npm run plug"
+   timeout /t 5 >nul
+   :WAITLOOP
+   tasklist /FI "IMAGENAME eq node.exe" 2>NUL | find /I /N "node.exe">NUL
+   if "%ERRORLEVEL%"=="0" goto RUNNING
+   goto NOTRUNNING
+   
+   :RUNNING
+   timeout /t 3 >nul
+   goto WAITLOOP
+   
+   :NOTRUNNING
+   echo Done!
+   timeout /t 1 >nul
    echo.
    echo.
    echo Closing Discord Canary
@@ -319,12 +341,11 @@ if "%App%" EQU "Install PowerCord" (
    ) else if errorlevel 2 (
       goto :InstallDone
    ) else if errorlevel 1 (
-      echo Installing PowercordPluginDownloader
       echo.
+      echo Installing PowercordPluginDownloader
       git clone -q https://github.com/LandenStephenss/PowercordPluginDownloader
       echo.
       echo Installing PowercordThemeDownloader
-      echo.
       git clone -q https://github.com/ploogins/PowercordThemeDownloader
       goto :InstallDone
    ) else if errorlevel 0 (
@@ -339,11 +360,14 @@ if "%App%" EQU "Install PowerCord" (
    start %appdata%/../Local/DiscordCanary/Update.exe --processStart DiscordCanary.exe
    timeout /t 5 >nul
    cls
+   for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
+   echo      [92mบ[0m[95m    Installing Powercord    [92mบ[0m
+   echo      [92mศออออออออออออออออออออออออออออผ[0m
    echo.
    echo.
    echo|set /p="[92mPowercord has been Installed![0m"
    echo.
-   echo|set /p="[92mIf you would like to install plugins/themes manually, please restart this utility tool.[0m"
+   echo|set /p="[92mPress any key to go back to the menu[0m"
    rem screw it I've been working on this for the past 3 hours and I still have no idea why it force closes here so whatever let's just say it has to do with reloading or something idk
    pause >nul
    goto :MENU
@@ -358,8 +382,8 @@ if "%App%" EQU "Uninstall Powercord" (
    cls
    title Uninstalling Powercord - PowerCord Utility
    for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
-   echo      [92mบ[0m[95m   Uninstalling Powercord   [92mบ[0m
-   echo      [92mศออออออออออออออออออออออออออออผ[0m
+    echo      [92mบ[0m[95m   Uninstalling Powercord   [92mบ[0m
+    echo      [92mศออออออออออออออออออออออออออออผ[0m
 
 
    if not exist %HOMEPATH%\powercord\ (
@@ -376,8 +400,8 @@ if "%App%" EQU "Uninstall Powercord" (
    pause >nul
    cls
    for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
-   echo      [92mบ[0m[95m   Uninstalling Powercord   [92mบ[0m
-   echo      [92mศออออออออออออออออออออออออออออผ[0m
+    echo      [92mบ[0m[95m   Uninstalling Powercord   [92mบ[0m
+    echo      [92mศออออออออออออออออออออออออออออผ[0m
    echo.
    echo.
    cd %HOMEPATH%\powercord
@@ -402,8 +426,10 @@ if "%App%" EQU "Uninstall Powercord" (
    rmdir powercord /s /q
    cls
    for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
-   echo      [92mบ[0m[95m   Uninstalling Powercord   [92mบ[0m
-   echo      [92mศออออออออออออออออออออออออออออผ[0m
+    echo      [92mบ[0m[95m   Uninstalling Powercord   [92mบ[0m
+    echo      [92mศออออออออออออออออออออออออออออผ[0m
+   echo.
+   echo.
    echo|set /p="[92mPowercord has been Uninstalled![0m"
    echo.
    echo|set /p="[92mPress any key to go back to the menu[0m"
@@ -420,8 +446,8 @@ if "%App%" EQU "Install Plugin" (
    cls
    title Installing Plugin - PowerCord Utility
    for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
-   echo      [92mบ[0m[95m      Installing Plugin     [92mบ[0m
-   echo      [92mศออออออออออออออออออออออออออออผ[0m
+    echo      [92mบ[0m[95m      Installing Plugin     [92mบ[0m
+    echo      [92mศออออออออออออออออออออออออออออผ[0m
 
    if not exist %HOMEPATH%\powercord\ (
       echo.
@@ -444,8 +470,8 @@ if "%App%" EQU "Install Theme" (
    cls
    title Installing Theme - PowerCord Utility
    for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
-   echo      [92mบ[0m[95m      Installing Theme      [92mบ[0m
-   echo      [92mศออออออออออออออออออออออออออออผ[0m
+    echo      [92mบ[0m[95m      Installing Theme      [92mบ[0m
+    echo      [92mศออออออออออออออออออออออออออออผ[0m
 
    if not exist %HOMEPATH%\powercord\ (
       echo.
