@@ -25,24 +25,24 @@ If you save the file without this charset, the formatting will most likely break
   - ☐ I'm running out of tasks but I want this list to be more full
   - ☐ Find more tasks
 
-## Prerequisites
-
-- [Chocolatey](https://community.chocolatey.org/)
-- [Discord Canary](https://discord.com/api/download/canary?platform=win)
-- [Git](https://git-scm.com/downloads)
-- [NodeJS (LTS Recommended)](https://nodejs.org)
-- Windows
-
 ## Installing
 
 A step by step series of examples that tell you how to get a development
 environment running
 
-- Download the [latest release](https://github.com/Ryah/Powercord-Utilities/releases/latest)
+- Download the [latest release](https://github.com/Ryah/Powercord-Utilities/releases/latest) (Prerequisites can be installed in app or manually)
 - Double Click it
 - Type option in menu
 - ???
 - Profit
+
+## Prerequisites
+
+- [Chocolatey](https://community.chocolatey.org/) (Used to auto install other prerequisites)
+- [Discord Canary](https://discord.com/api/download/canary?platform=win)
+- [Git](https://git-scm.com/downloads)
+- [NodeJS (LTS Recommended)](https://nodejs.org)
+- Windows
 
 ---
 
