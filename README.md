@@ -9,6 +9,11 @@ Currently supports fully automated installation and uninstallation of Powercord 
 
 It also supports manually installing plugins/themes with a github repo link.
 
+## Notes
+If you're going to modify this script, use Notepad++ with the OEM-US charset or VSCode with the DOS (CP 437) encoding. 
+
+If you save the file without this charset, the formatting will most likely break.
+
 ## Todo:
   - ✔ Automate Killing/Opening of Discord Canary during installation @done(21-08-08 02:16)
   - ☐ Plugin/theme backup & restore
@@ -19,8 +24,6 @@ It also supports manually installing plugins/themes with a github repo link.
   - ☐ I'm running out of tasks but I want this list to be more full
   - ☐ Find more tasks
 
-## Notes
-If you're going to modify this script, use Notepad++ with the OEM-US charset. If you save the file without this charset, the formatting will most likely break.
 ## Prerequisites
 
 - [Chocolatey](https://community.chocolatey.org/)
