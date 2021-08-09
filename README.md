@@ -6,8 +6,6 @@ Powercord Utilities is an (unofficial) automated Installer/Uninstaller for [Powe
 
 ![Screenshot](https://i.imgur.com/HHgDXnG.png)
 
-Originally planned as a hub for [No Text To Speech's](https://www.youtube.com/watch?v=Mop8515xtCE) easy install scripts, it's turned into a fully automated installer/uninstaller with a few more management features added.
-
 Currently supports fully automated installation and uninstallation of Powercord and it's prerequisites with Chocolatey, along with (optionally) [PowercordPluginDownloader](https://github.com/LandenStephenss/PowercordPluginDownloader) and [PowercordThemeDownloader](https://github.com/ploogins/PowercordThemeDownloader).
 
 It also supports manually installing plugins/themes with a github repo link.
