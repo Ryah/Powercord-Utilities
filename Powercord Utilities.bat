@@ -1,4 +1,4 @@
-::: 
+::: Any "token" mention in this script is because that's the syntax of a for loop in batch. It's used to paste this header so it looks nice lol.
 :::   [92mษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป[0m
 :::   [92mบ[0m[94m          _____                                                  _     _    _  _    _  _  _  _                 [0m[92mบ[0m
 :::   [92mบ[0m[94m         |  __ \                                                | |   | |  | || |  (_)| |(_)| |                [0m[92mบ[0m
