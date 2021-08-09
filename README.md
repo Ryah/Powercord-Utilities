@@ -40,7 +40,7 @@ If you save the file without this charset, the formatting will most likely break
 A step by step series of examples that tell you how to get a development
 environment running
 
-- Download bat or exe file
+- Download the [latest release](https://github.com/Ryah/Powercord-Utilities/releases/latest)
 - Double Click it
 - Type option in menu
 - ???
