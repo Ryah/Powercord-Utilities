@@ -38,10 +38,10 @@ environment running
 
 ## Prerequisites
 
-- [Chocolatey](https://community.chocolatey.org/) (Used to auto install other prerequisites)
 - [Discord Canary](https://discord.com/api/download/canary?platform=win)
 - [Git](https://git-scm.com/downloads)
 - [NodeJS (LTS Recommended)](https://nodejs.org)
+- [Chocolatey](https://community.chocolatey.org/) (Used to auto install other prerequisites)
 - Windows
 
 ---
