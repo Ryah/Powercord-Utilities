@@ -14,6 +14,7 @@ It also supports manually installing plugins/themes with a github repo link.
   - ☐ Plugin/theme backup & restore
   - ✔ Automate installation of Git @done(21-08-08 17:25)
   - ✔ Automate installation of NodeJS @done(21-08-08 17:25)
+  - ☐ Modify attribution
   - ☐ Streamline Plugin installation
   - ☐ (maybe) Make main menu a keyboard driven GUI (DOSKEY possibly?)
   - ☐ I'm running out of tasks but I want this list to be more full
