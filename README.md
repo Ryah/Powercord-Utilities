@@ -1,18 +1,19 @@
 # Powercord Utilities (Windows Only)
 
-# NOT OFFICIALLY ENDORSED BY POWERCORD 
+# NOT OFFICIALLY ENDORSED BY [POWERCORD](https://powercord.dev/).
+## This is just a fan project to make the installation a bit smoother
 
-Powercord Utilities is an (unofficial) automated Installer/Uninstaller for Powercord with added features written in Batch.
+Powercord Utilities is an (unofficial) automated Installer/Uninstaller for [Powercord](https://powercord.dev/) with added features written in Batch.
 
-Currently supports semi-automated installation and uninstallation of Powercord, along with PowercordPluginDownloader and PowercordThemeDownloader.
+Currently supports fully automated installation and uninstallation of Powercord and it's prerequisites with Chocolatey, along with PowercordPluginDownloader and PowercordThemeDownloader.
 
 It also supports manually installing plugins/themes with a github repo link.
 
 ## Todo:
   - ✔ Automate Killing/Opening of Discord Canary during installation @done(21-08-08 02:16)
   - ☐ Plugin/theme backup & restore
-  - ☐ Automate installation of Git
-  - ☐ Automate installation of NodeJS
+  - ✔ Automate installation of Git @done(21-08-08 17:25)
+  - ✔ Automate installation of NodeJS @done(21-08-08 17:25)
   - ☐ Modify attribution
   - ☐ Streamline Plugin installation
   - ☐ (maybe) Make main menu a keyboard driven GUI (DOSKEY possibly?)
@@ -23,11 +24,11 @@ It also supports manually installing plugins/themes with a github repo link.
 If you're going to modify this script, use Notepad++ with the OEM-US charset. If you save the file without this charset, the formatting will most likely break.
 ## Prerequisites
 
-
-- Windows
+- [Chocolatey](https://community.chocolatey.org/)
 - [Discord Canary](https://discord.com/api/download/canary?platform=win)
 - [Git](https://git-scm.com/downloads)
 - [NodeJS (LTS Recommended)](https://nodejs.org)
+- Windows
 
 ## Installing
 
@@ -41,10 +42,6 @@ environment running
 - Profit
 
 ---
-
-## Authors
-
-  - Ryah
 
 ## License
 
