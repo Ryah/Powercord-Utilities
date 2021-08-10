@@ -2,8 +2,9 @@
 
 # NOT OFFICIALLY ENDORSED BY [POWERCORD](https://powercord.dev/).
 
-##Major Rewrite coming soon
-I found out that (Batch-Man)[https://batch-man.com/] exists and it changes absolutuly everything. MAJOR updates coming soon.
+## Major Rewrite coming soon
+
+I found out that [Batch-Man](https://batch-man.com/) exists and it changes absolutuly everything. MAJOR updates coming soon.
 
 Powercord Utilities is an (unofficial) automated Installer/Uninstaller for [Powercord](https://powercord.dev/) with added features written in Batch.
 
