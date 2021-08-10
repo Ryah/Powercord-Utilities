@@ -17,14 +17,18 @@ If you save the file without this charset, the formatting will most likely break
 
 ## Todo:
   - ✔ Automate Killing/Opening of Discord Canary during installation @done(21-08-08 02:16)
+  - ✔ Deescalate Powercord installation's npm commands @done(21-08-08 20:24)
   - ☐ Plugin/theme backup & restore
+  - ☐ Plugins setting share (if possible)
+  - ☐ Self-diagnose potential bugs/errors (invalid repo etc)
+  - ☐ Fix "Plugin Installed" even if the plugin is not installed
+  - ☐ __Learn more__ option in TOS disclaimer- perhaps with snippets of useful advice regarding client modifications
   - ✔ Automate installation of Git @done(21-08-08 17:25)
   - ✔ Automate installation of NodeJS @done(21-08-08 17:25)
-  - ☐ Streamline Plugin installation
+  - ☐ Find out a way to detect runas window being open without closing all other node processes
+  - ☐ Streamline Plugin installation (auto-install given github url, without using option 3 & 4)
   - ☐ (maybe) Make main menu a keyboard driven GUI (DOSKEY possibly?)
-  - ☐ I'm running out of tasks but I want this list to be more full
-  - ☐ Find more tasks
-
+  - 
 ## Installing
 
 A step by step series of examples that tell you how to get a development
