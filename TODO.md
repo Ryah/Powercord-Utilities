@@ -11,5 +11,3 @@ Todo:
   - ☐ Find out a way to detect runas window being open without closing all other node processes
   - ☐ Streamline Plugin installation (auto-install given github url, without using option 3 & 4)
   - ☐ (maybe) Make main menu a keyboard driven GUI (DOSKEY possibly?)
-  - ☐ I'm running out of tasks but I want this list to be more full
-  - ☐ Find more tasks
