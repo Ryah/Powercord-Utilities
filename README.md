@@ -16,15 +16,15 @@ If you're going to modify this script, use Notepad++ with the OEM-US charset or 
 If you save the file without this charset, the formatting will most likely break.
 
 ## Todo:
-  - ✔ Automate Killing/Opening of Discord Canary during installation @done(21-08-08 02:16)
-  - ✔ Deescalate Powercord installation's npm commands @done(21-08-08 20:24)
+  - ✔ Automate Killing/Opening of Discord Canary during installation [@done(21-08-08 02:16)](https://github.com/Ryah/Powercord-Utilities/commit/e8d59622812072d0bc47bd02edb105224c53711b#diff-bf3f903c763e8a45fa3fb180b410e2bb086474ea44452d00610afb8123133b00R308-R324)
+  - ✔ Deescalate Powercord installation's npm commands [@done(21-08-08 20:24)](https://github.com/Ryah/Powercord-Utilities/commit/e8d59622812072d0bc47bd02edb105224c53711b#diff-bf3f903c763e8a45fa3fb180b410e2bb086474ea44452d00610afb8123133b00R311)
   - ☐ Plugin/theme backup & restore
   - ☐ Plugins setting share (if possible)
   - ☐ Self-diagnose potential bugs/errors (invalid repo etc)
   - ☐ Fix "Plugin Installed" even if the plugin is not installed
   - ☐ __Learn more__ option in TOS disclaimer- perhaps with snippets of useful advice regarding client modifications
-  - ✔ Automate installation of Git @done(21-08-08 17:25)
-  - ✔ Automate installation of NodeJS @done(21-08-08 17:25)
+  - ✔ Automate installation of Git [@done(21-08-08 17:25)](https://github.com/Ryah/Powercord-Utilities/commit/a3fddc3c4e9f09c7124fdd6ce3d81569b031cf91#diff-bf3f903c763e8a45fa3fb180b410e2bb086474ea44452d00610afb8123133b00R501-R556)
+  - ✔ Automate installation of NodeJS [@done(21-08-08 17:25)](https://github.com/Ryah/Powercord-Utilities/commit/a3fddc3c4e9f09c7124fdd6ce3d81569b031cf91#diff-bf3f903c763e8a45fa3fb180b410e2bb086474ea44452d00610afb8123133b00R501-R556)
   - ☐ Find out a way to detect runas window being open without closing all other node processes
   - ☐ Streamline Plugin installation (auto-install given github url, without using option 3 & 4)
   - ☐ (maybe) Make main menu a click GUI with cmdmenusel
