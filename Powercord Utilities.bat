@@ -1,19 +1,19 @@
 ::: Any "token" mention in this script is because that's the syntax of a for loop in batch. It's used to paste this header so it looks nice lol.
-:::   [92mษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป[0m
-:::   [92mบ[0m[94m          _____                                                  _     _    _  _    _  _  _  _                 [0m[92mบ[0m
-:::   [92mบ[0m[94m         |  __ \                                                | |   | |  | || |  (_)| |(_)| |                [0m[92mบ[0m
-:::   [92mบ[0m[94m         | |__) |___ __      __ ___  _ __   ___   ___   _ __  __| |   | |  | || |_  _ | | _ | |_  _   _        [0m[92mบ[0m
-:::   [92mบ[0m[94m         |  ___// _ \\ \ /\ / // _ \| '__| / __| / _ \ | '__|/ _` |   | |  | || __|| || || || __|| | | |       [0m[92mบ[0m
-:::   [92mบ[0m[94m         | |   | (_) |\ V  V /|  __/| |   | (__ | (_) || |  | (_| |   | |__| || |_ | || || || |_ | |_| |       [0m[92mบ[0m
-:::   [92mบ[0m[94m         |_|    \___/  \_/\_/  \___||_|    \___| \___/ |_|   \__,_|    \____/  \__||_||_||_| \__| \__, |       [0m[92mบ[0m
-:::   [92mบ[0m[94m                                                                                                   __/ |       [0m[92mบ[0m
-:::   [92mบ[0m[94m                                                                                                  |___/        [0m[92mบ[0m
-:::   [92mบ[0m[94m                                                                                                               [0m[92mบ[0m
-:::   [92mบ[0m[94m                                             Made by Ryah#1518                                                 [0m[92mบ[0m
-:::   [92mบ[0m[94m                                                                                                               [0m[92mบ[0m
-:::   [92mบ[0m[94m                            Not affiliated with Discord or Powercord in any way                                [0m[92mบ[0m
-:::   [92mบ[0m[94m                           Powercord is against Discord ToS. Use at your own risk!                              [0m[92mบ[0m
-:::   [92mศอหออออออออออออออออออออออออออออหออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ[0m
+:::   [92mรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยป[0m
+:::   [92mยบ[0m[94m          _____                                                  _     _    _  _    _  _  _  _                 [0m[92mยบ[0m
+:::   [92mยบ[0m[94m         |  __ \                                                | |   | |  | || |  (_)| |(_)| |                [0m[92mยบ[0m
+:::   [92mยบ[0m[94m         | |__) |___ __      __ ___  _ __   ___   ___   _ __  __| |   | |  | || |_  _ | | _ | |_  _   _        [0m[92mยบ[0m
+:::   [92mยบ[0m[94m         |  ___// _ \\ \ /\ / // _ \| '__| / __| / _ \ | '__|/ _` |   | |  | || __|| || || || __|| | | |       [0m[92mยบ[0m
+:::   [92mยบ[0m[94m         | |   | (_) |\ V  V /|  __/| |   | (__ | (_) || |  | (_| |   | |__| || |_ | || || || |_ | |_| |       [0m[92mยบ[0m
+:::   [92mยบ[0m[94m         |_|    \___/  \_/\_/  \___||_|    \___| \___/ |_|   \__,_|    \____/  \__||_||_||_| \__| \__, |       [0m[92mยบ[0m
+:::   [92mยบ[0m[94m                                                                                                   __/ |       [0m[92mยบ[0m
+:::   [92mยบ[0m[94m                                                                                                  |___/        [0m[92mยบ[0m
+:::   [92mยบ[0m[94m                                                                                                               [0m[92mยบ[0m
+:::   [92mยบ[0m[94m                                             Made by Ryah#1518                                                 [0m[92mยบ[0m
+:::   [92mยบ[0m[94m                                                                                                               [0m[92mยบ[0m
+:::   [92mยบ[0m[94m                            Not affiliated with Discord or Powercord in any way.                               [0m[92mยบ[0m
+:::   [92mยบ[0m[94m                           Powercord is against Discord ToS. Use at your own risk!                              [0m[92mยบ[0m
+:::   [92mรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยผ[0m
 :: Hide Command and Set Scope
 @echo off
 setlocal EnableExtensions
@@ -63,21 +63,21 @@ REM ----------------------------------------------------------------------------
 REM                            Check Prerequisites
 REM ----------------------------------------------------------------------------
 for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
-echo      [92mบ[0mChecking Prerequisites      [92mบ[0m
-echo      [92mวฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤถ[0m
+echo      [92mยบ[0mChecking Prerequisites      [92mยบ[0m
+echo      [92mรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยถ[0m
 rem timeout /t 1 >nul
 rem Check if "git --version" is a recognized command
 git --version >nul 2>&1 && (
-	echo      [92mบFound Git                   บ[0m
+	echo      [92mยบFound Git                   ยบ[0m
    rem timeout /t 1 >nul
    rem Check if "node -v" is a recognized command
    node -v >nul 2>&1 && (
-	echo      [92mบFound NodeJS                บ[0m
+	echo      [92mยบFound NodeJS                ยบ[0m
       rem Check if the ".dead" file is present in "%appdata%/../Local/DiscordCanary"
       if exist %appdata%/../Local/DiscordCanary/.dead (
-			echo      [92mบ                            บ[0m
-			echo      [92mบ[0m[91mDiscord Canary NOT Found[0m    [92mบ[0m
-			echo      [92mศออออออออออออออออออออออออออออผ[0m
+			echo      [92mยบ                            ยบ[0m
+			echo      [92mยบ[0m[91mDiscord Canary NOT Found[0m    [92mยบ[0m
+			echo      [92mรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยผ[0m
          echo.
          echo [91mIt doesn't look like Discord Canary is installed. Powercord only works with Canary.[0m
       echo.
@@ -113,15 +113,15 @@ git --version >nul 2>&1 && (
       pause
       exit
       ) else (
-			echo      [92mบFound Discord Canary        บ[0m
-			echo      [92mศออออออออออออออออออออออออออออผ[0m
+			echo      [92mยบFound Discord Canary        ยบ[0m
+			echo      [92mรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยผ[0m
          timeout /t 1 >nul
          goto :MENU
       )
    ) || (
-		echo      [92mบ                            บ[0m 
-		echo      [92mบ[0m[91mNodeJS NOT Found[0m            [92mบ[0m
-		echo      [92mศออออออออออออออออออออออออออออผ[0m
+		echo      [92mยบ                            ยบ[0m 
+		echo      [92mยบ[0m[91mNodeJS NOT Found[0m            [92mยบ[0m
+		echo      [92mรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยผ[0m
       echo.
       rem echo [91mNodeJS is not installed. Please install NodeJS at https://nodejs.org/ (LTS is recommended^)[0m
       echo [91mNodeJS is not installed.[0m
@@ -159,9 +159,9 @@ git --version >nul 2>&1 && (
       exit
    )
 ) || (
-	echo      [92mบ                            บ[0m
-	echo      [92mบ[0m[91mGit NOT Found[0m               [92mบ[0m
-	echo      [92mศออออออออออออออออออออออออออออผ[0m
+	echo      [92mยบ                            ยบ[0m
+	echo      [92mยบ[0m[91mGit NOT Found[0m               [92mยบ[0m
+	echo      [92mรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยผ[0m
    echo.
    echo [91mGit is not installed.[0m
    echo.
@@ -213,16 +213,16 @@ cls
 
 rem Display Header
 for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
-echo      [92mบ[0m      Select an option      [92mบ[0m
-echo      [92mวฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤถ[0m
-echo      [92mบ[0m 1. Install Powercord       [92mบ[0m
-echo      [92mบ[0m 2. Uninstall Powercord     [92mบ[0m
-echo      [92mวฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤถ[0m  
-echo      [92mบ[0m 3. Manually Install Plugin [92mบ[0m
-echo      [92mบ[0m 4. Manually Install Theme  [92mบ[0m
-echo      [92mบ[0m                            [92mบ[0m
-echo      [92mบ[0m 5. Quit                    [92mบ[0m
-echo      [92mศออออออออออออออออออออออออออออผ[0m
+echo      [92mยบ[0m      Select an option      [92mยบ[0m
+echo      [92mรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยถ[0m
+echo      [92mยบ[0m 1. Install Powercord       [92mยบ[0m
+echo      [92mยบ[0m 2. Uninstall Powercord     [92mยบ[0m
+echo      [92mรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยถ[0m  
+echo      [92mยบ[0m 3. Manually Install Plugin [92mยบ[0m
+echo      [92mยบ[0m 4. Manually Install Theme  [92mยบ[0m
+echo      [92mยบ[0m                            [92mยบ[0m
+echo      [92mยบ[0m 5. Quit                    [92mยบ[0m
+echo      [92mรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยผ[0m
 echo.
 set "x=0"
 :MenuLoop
@@ -279,8 +279,8 @@ if "%App%" EQU "Install PowerCord" (
    cls
    title Installing Powercord - PowerCord Utility
    for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
-   echo      [92mบ[0m[95m    Installing Powercord    [92mบ[0m
-   echo      [92mศออออออออออออออออออออออออออออผ[0m
+   echo      [92mยบ[0m[95m    Installing Powercord    [92mยบ[0m
+   echo      [92mรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยผ[0m
    echo.
    if exist %HOMEPATH%\powercord\ (
       echo.
@@ -297,8 +297,8 @@ if "%App%" EQU "Install PowerCord" (
    pause >nul
    cls
    for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
-   echo      [92mบ[0m[95m    Installing Powercord    [92mบ[0m
-   echo      [92mศออออออออออออออออออออออออออออผ[0m
+   echo      [92mยบ[0m[95m    Installing Powercord    [92mยบ[0m
+   echo      [92mรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยผ[0m
    echo Cloning Powercord Repo
    git clone -q https://github.com/powercord-org/powercord
    cd powercord
@@ -361,8 +361,8 @@ if "%App%" EQU "Install PowerCord" (
    timeout /t 5 >nul
    cls
    for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
-   echo      [92mบ[0m[95m    Installing Powercord    [92mบ[0m
-   echo      [92mศออออออออออออออออออออออออออออผ[0m
+   echo      [92mยบ[0m[95m    Installing Powercord    [92mยบ[0m
+   echo      [92mรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยผ[0m
    echo.
    echo.
    echo|set /p="[92mPowercord has been Installed![0m"
@@ -382,8 +382,8 @@ if "%App%" EQU "Uninstall Powercord" (
    cls
    title Uninstalling Powercord - PowerCord Utility
    for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
-    echo      [92mบ[0m[95m   Uninstalling Powercord   [92mบ[0m
-    echo      [92mศออออออออออออออออออออออออออออผ[0m
+    echo      [92mยบ[0m[95m   Uninstalling Powercord   [92mยบ[0m
+    echo      [92mรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยผ[0m
 
 
    if not exist %HOMEPATH%\powercord\ (
@@ -400,8 +400,8 @@ if "%App%" EQU "Uninstall Powercord" (
    pause >nul
    cls
    for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
-    echo      [92mบ[0m[95m   Uninstalling Powercord   [92mบ[0m
-    echo      [92mศออออออออออออออออออออออออออออผ[0m
+    echo      [92mยบ[0m[95m   Uninstalling Powercord   [92mยบ[0m
+    echo      [92mรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยผ[0m
    echo.
    echo.
    cd %HOMEPATH%\powercord
@@ -426,8 +426,8 @@ if "%App%" EQU "Uninstall Powercord" (
    rmdir powercord /s /q
    cls
    for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
-    echo      [92mบ[0m[95m   Uninstalling Powercord   [92mบ[0m
-    echo      [92mศออออออออออออออออออออออออออออผ[0m
+    echo      [92mยบ[0m[95m   Uninstalling Powercord   [92mยบ[0m
+    echo      [92mรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยผ[0m
    echo.
    echo.
    echo|set /p="[92mPowercord has been Uninstalled![0m"
@@ -446,8 +446,8 @@ if "%App%" EQU "Install Plugin" (
    cls
    title Installing Plugin - PowerCord Utility
    for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
-    echo      [92mบ[0m[95m      Installing Plugin     [92mบ[0m
-    echo      [92mศออออออออออออออออออออออออออออผ[0m
+    echo      [92mยบ[0m[95m      Installing Plugin     [92mยบ[0m
+    echo      [92mรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยผ[0m
 
    if not exist %HOMEPATH%\powercord\ (
       echo.
@@ -470,8 +470,8 @@ if "%App%" EQU "Install Theme" (
    cls
    title Installing Theme - PowerCord Utility
    for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
-    echo      [92mบ[0m[95m      Installing Theme      [92mบ[0m
-    echo      [92mศออออออออออออออออออออออออออออผ[0m
+    echo      [92mยบ[0m[95m      Installing Theme      [92mยบ[0m
+    echo      [92mรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยผ[0m
 
    if not exist %HOMEPATH%\powercord\ (
       echo.
@@ -531,8 +531,8 @@ REM ----------------------------------------------------------------------------
 :chocoCheck
 cls
 for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
-echo      [92mบ[0mInstalling Prerequisites    [92mบ[0m
-echo      [92mศออออออออออออออออออออออออออออผ[0m
+echo      [92mยบ[0mInstalling Prerequisites    [92mยบ[0m
+echo      [92mรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยผ[0m
 echo.
 echo Checking if Chocolatey is installed
 timeout /t 2 >nul
@@ -556,8 +556,8 @@ if "%errorlevel%" == "9009" (
 :prereqInstall
 cls
 for /f "delims=: tokens=*" %%A in ('findstr /b ::: "%~f0"') do @echo(%%A
-echo      [92mบ[0mInstalling Prerequisites    [92mบ[0m
-echo      [92mศออออออออออออออออออออออออออออผ[0m
+echo      [92mยบ[0mInstalling Prerequisites    [92mยบ[0m
+echo      [92mรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยผ[0m
 echo.
 echo.
 ::NodeJS
