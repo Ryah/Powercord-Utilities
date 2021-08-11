@@ -1,4 +1,9 @@
-::: Any "token" mention in this script is because that's the syntax of a for loop in batch. It's used to paste this header so it looks nice lol.
+:: Hide Command and Set Scope
+@echo off
+setlocal EnableExtensions
+cd %HOMEPATH%
+
+rem Any "token" mention in this script is because that's the syntax of a for loop in batch. It's used to paste this header so it looks nice lol.
 :::   [92mษอออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป[0m
 :::   [92mบ[0m[94m          _____                                                  _     _    _  _    _  _  _  _                 [0m[92mบ[0m
 :::   [92mบ[0m[94m         |  __ \                                                | |   | |  | || |  (_)| |(_)| |                [0m[92mบ[0m
@@ -11,13 +16,9 @@
 :::   [92mบ[0m[94m                                                                                                               [0m[92mบ[0m
 :::   [92mบ[0m[94m                                             Made by Ryah#1518                                                 [0m[92mบ[0m
 :::   [92mบ[0m[94m                                                                                                               [0m[92mบ[0m
-:::   [92mบ[0m[94m                            Not affiliated with Discord or Powercord in any way                                [0m[92mบ[0m
-:::   [92mบ[0m[94m                           Powercord is against Discord ToS. Use at your own risk!                              [0m[92mบ[0m
+:::   [92mบ[0m[94m                            Not affiliated with Discord or Powercord in any way.                               [0m[92mบ[0m
+:::   [92mบ[0m[94m                           Powercord is against Discord ToS. Use at your own risk.                              [0m[92mบ[0m
 :::   [92mศอหออออออออออออออออออออออออออออหออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ[0m
-:: Hide Command and Set Scope
-@echo off
-setlocal EnableExtensions
-cd %HOMEPATH%
 
 ::Get Admin
 :init
