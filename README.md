@@ -2,8 +2,6 @@
 
 # NOT OFFICIALLY ENDORSED BY [POWERCORD](https://powercord.dev/).
 
-## Major Rewrite coming soon
-
 I found out that [Batch-Man](https://batch-man.com/) exists and it changes absolutuly everything. MAJOR updates coming soon.
 
 Powercord Utilities is an (unofficial) automated Installer/Uninstaller for [Powercord](https://powercord.dev/) with added features written in Batch.
@@ -31,7 +29,7 @@ If you save the file without this charset, the formatting will most likely break
   - ✔ Automate installation of NodeJS @done(21-08-08 17:25)
   - ☐ Find out a way to detect runas window being open without closing all other node processes
   - ☐ Streamline Plugin installation (auto-install given github url, without using option 3 & 4)
-  - ☐ (maybe) Make main menu a keyboard driven GUI (DOSKEY possibly?)
+  - ☐ (maybe) Make main menu a click GUI with cmdmenusel
   - ☐ Add Auto-Update
 ## Installing
 
